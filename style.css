@@ -1,0 +1,53 @@
+#loi_chao {
+  font-size: 55px;
+  font-family: cursive;
+  text-align: center;
+  width: 900px;
+  /* viền */
+  border: 2px solid black;
+  /* bo góc(viền) */
+  border-radius: 50px;
+  background-image: url(/img_bgrd/brgd_h1.jpg);
+  /* cố định phần tử với lề */
+  margin: 0 auto;
+  /* khoảng cách giữa chữ và viền */
+  padding: 5px;
+  color: orangered;
+  /* viền chữ */
+  text-shadow: 1px 1px 0 white, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+}
+
+.phan_muc {
+  font-family: monospace;
+  font-size: 25px;
+  border: 1.5px solid grey;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: inline-block;
+  /*padding trên dưới 5px trái phải 10px  */
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.muc_luc {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#muc_luc {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.text {
+  font-family: sans-serif;
+  /* khoảng cách giữa các dòng */
+  line-height: 1.7;
+}
+
+.tieu_de {
+  font-family: serif;
+  font-size: 25px;
+}
